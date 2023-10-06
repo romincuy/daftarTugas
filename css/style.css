@@ -176,3 +176,25 @@ input[type=text], input[type=date], .btn-submit:focus {
         width: 100%;
     }
 }
+
+    @media only screen and (max-width: 500px) {
+    .list-item {
+        font-size: .9rem;
+    }
+
+    .check-button {
+        width: 25px;
+        height: 25px;
+        margin-right: -1rem;
+    }
+
+    .trash-button {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .undo-button {
+        width: 25px;
+        height: 25px;
+    }
+} 
